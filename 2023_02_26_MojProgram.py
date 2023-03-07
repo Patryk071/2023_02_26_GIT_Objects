@@ -1,3 +1,5 @@
+#Classy do programu "Mój program" są w innym pliku "rakieta"
+
 from rakieta import RocketBoard
 
 plansza = RocketBoard()
