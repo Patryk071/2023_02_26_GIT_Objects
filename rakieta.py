@@ -19,7 +19,7 @@ class Rocket:
         return (self.speed + other.speed)
 
 
-#
+#Lista rakiet, ale w postaci classy
 class RocketBoard:
     def __init__(self, liczbaRakiet = 5):
         self.rakiety = [Rocket() for _ in range(liczbaRakiet)]
@@ -32,7 +32,7 @@ class RocketBoard:
             print(rakieta)
 
     def __getitem__(self, item):
-        return self.rakiety
+        return self.rakiety[item]
 
 
 #Tworzymy rakietę "rakieta1", która ma właściwości z classy Rocket()
